@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+ </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://pixabay.com/photos/kitchen-cooking-knife-cilantro-7471627/"
+            alt="cooking knife"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#tenor">Learn to cook</a></li>
+            <li><a class="nav-link" href="#bass">Recipes</a></li>
+            <li><a class="nav-link" href="#valve">Where to buy</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Learn with us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Easy recipes</h2>
+              <p>
+                Fast and easy recipes for all cooking levels.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Learn to cook</h2>
+              <p>
+                Even if you never cook again or you're an all time chef, here you can find an insiration
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Where to buy</h2>
+              <p>
+                Depending on your region, learn where and how to find the best ingredients for your recipes, 
+		how to choose them in order to sooth your cooking level and both step-by-step instructions, for
+		those of you how follow the recipes to the book and also tips and bits, for those who wing it. 
+              </p>
+            </div>
+          </div>
+        </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>For all levels and types</h2>
+              <p>
+                We don't care if you just started or you already have the best skills.
+		We have everything for everyone, from step-by-step to wing it.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>All levels</h2>
+              <p>
+                You can try our tutorials and recipes no matter your cooking skills or your cooking experience. 
+		We make sure that you can choose how you want all the recipes to be presented, from step-by-step
+		tutorials with or without videos, up to very brief informations about the each recipe. You can change
+		the settings any time you want.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Easy to use</h2>
+              <p>
+                You can follow our instructions, on your own step, on every type of device and you can also pause and rewind
+		any time you want. You can also find recipes by choosing what ingredients do you have available, your type of
+		instructions or find informations about ingredients, where to use them, how to pair them with other ingredients
+		and choose if you want a detail set of informations about one or more ingredients or just basic and how to use them. 
+              </p>
+            </div>
+          </div>
+        </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Learn the skills</h2>
+              <p>
+                Since you open our site, you can choose what you want your journey to be. 
+		And you can change anything about is, as much as you want. 
+		Learn it from the experts and based on your wants. 
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Learn how and why</h2>
+              <p>
+               With us, you can learn why to choose a certain ingredient and if you don't have it, or don't want it in your recipe, 
+	       you can find alternatives that will pair up great with your other ingredients and your skill.
+	       Based on your region of the world, we can teach you what to choose, where to buy the item/s, your price range and
+	       you can also find out if a product is good or bad.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Cooking 101</h2>
+              <p>
+                For every recipe, we show you what ingredients to choose, in what rations, from very specific up to in the ball park,
+		what other tools do you need and if you don't have or don't to use a certain ingredient/tool, we tell alternatives.  
+              </p>
+            </div>
+          </div>
+        </section> 
+<section id="how-it-works">
+          <iframe
+            id="video"
+            height="315"
+            src="https://media.istockphoto.com/videos/cook-sprinkling-salt-on-skillet-video-id1162153594"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">Learn to cook</div>
+            <h2>Levels</h2>
+            <ol>
+              <li>Less than basic</li>
+              <li>Basic</li>
+              <li>Expert</li>
+              <li>On the run</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Ingredients</div>
+            <h2>Choose your ingredient</h2>
+            <ol>
+              <li>Legumes</li>
+              <li>Meat</li>
+              <li>Dairy</li>
+              <li>Other</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Tools</div>
+            <h2>Choose your tools</h2>
+            <ol>
+              <li>Less then basic</li>
+              <li>Basic</li>
+              <li>Expert</li>
+              <li>Chef</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2022, Basic Chefs</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
